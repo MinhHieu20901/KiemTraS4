@@ -32,7 +32,10 @@ namespace KiemTraS4
             this.label1 = new System.Windows.Forms.Label();
             this.txtTenDangNhap = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.bntLogin = new System.Windows.Forms.Button();
+            this.bntDangNhap = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -41,43 +44,70 @@ namespace KiemTraS4
             this.label1.Location = new System.Drawing.Point(100, 125);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.Size = new System.Drawing.Size(105, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ten dang nhap";
             // 
             // txtTenDangNhap
             // 
-            this.txtTenDangNhap.Location = new System.Drawing.Point(184, 125);
-            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenDangNhap.Location = new System.Drawing.Point(230, 122);
+            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
-            this.txtTenDangNhap.Size = new System.Drawing.Size(188, 20);
+            this.txtTenDangNhap.Size = new System.Drawing.Size(188, 22);
             this.txtTenDangNhap.TabIndex = 1;
-            // 
-            // 
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(164, 201);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 17);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 2;
             // 
-            // bntLogin
+            // bntDangNhap
             // 
-            this.bntLogin.Location = new System.Drawing.Point(304, 244);
-            this.bntLogin.Name = "bntLogin";
-            this.bntLogin.Size = new System.Drawing.Size(114, 37);
-            this.bntLogin.TabIndex = 4;
-            this.bntLogin.Text = "Login";
-            this.bntLogin.UseVisualStyleBackColor = true;
+            this.bntDangNhap.Location = new System.Drawing.Point(264, 229);
+            this.bntDangNhap.Name = "bntDangNhap";
+            this.bntDangNhap.Size = new System.Drawing.Size(114, 37);
+            this.bntDangNhap.TabIndex = 4;
+            this.bntDangNhap.Text = "Dang Nhap";
+            this.bntDangNhap.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(164, 249);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 17);
+            this.label3.TabIndex = 7;
+            // 
+            // txtMatKhau
+            // 
+            this.txtMatKhau.Location = new System.Drawing.Point(230, 170);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.Size = new System.Drawing.Size(188, 22);
+            this.txtMatKhau.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(100, 173);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 17);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Mat Khau";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.bntLogin);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.bntDangNhap);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtTenDangNhap);
             this.Controls.Add(this.label1);
@@ -94,7 +124,10 @@ namespace KiemTraS4
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTenDangNhap;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button bntLogin;
+        private System.Windows.Forms.Button bntDangNhap;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.Label label4;
     }
 }
 
