@@ -30,7 +30,7 @@ namespace KiemTraS4
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtTenDangNhap = new System.Windows.Forms.TextBox();
             this.txtmatkhau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -38,20 +38,20 @@ namespace KiemTraS4
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 125);
+            this.label1.Location = new System.Drawing.Point(100, 125);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "Ten dang nhap";
             // 
-            // txtUserName
+            // txtTenDangNhap
             // 
-            this.txtUserName.Location = new System.Drawing.Point(184, 125);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(188, 20);
-            this.txtUserName.TabIndex = 1;
+            this.txtTenDangNhap.Location = new System.Drawing.Point(184, 125);
+            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenDangNhap.Name = "txtTenDangNhap";
+            this.txtTenDangNhap.Size = new System.Drawing.Size(188, 20);
+            this.txtTenDangNhap.TabIndex = 1;
             // 
             // txtmatkhau
             // 
@@ -78,7 +78,7 @@ namespace KiemTraS4
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.txtmatkhau);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.txtTenDangNhap);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
@@ -91,7 +91,7 @@ namespace KiemTraS4
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtTenDangNhap;
         private System.Windows.Forms.TextBox txtmatkhau;
         private System.Windows.Forms.Label label2;
     }
