@@ -16,5 +16,13 @@ namespace KiemTraS4
         {
             InitializeComponent();
         }
+
+        private void bntDangNhap_Click(object sender, EventArgs e)
+        {
+            if(txtTenDangNhap.Text =="Admin" && txtMatKhau.Text == "Admin")
+            {
+                MessageBox.Show("Dang nhap thanh cong");
+            }
+        }
     }
 }
